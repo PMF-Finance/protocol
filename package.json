@@ -22,7 +22,7 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@openzeppelin/contracts": "5.0.2",
     "hardhat": "^2.22.0",
-    "solhint": "^5.0.0",
+    "solhint": "^6.2.4",
     "solidity-coverage": "^0.8.12"
   },
   "repository": {
