@@ -1,0 +1,23 @@
+{
+  "id": "ap-quote-valid",
+  "profileId": "pmf/admission-ap-quote/1",
+  "case": "positive",
+  "input": {
+    "operation": "deposit",
+    "chainId": "137",
+    "vault": "0x1111111111111111111111111111111111111111",
+    "signer": "0x2222222222222222222222222222222222222222",
+    "beneficiary": "0x3333333333333333333333333333333333333333",
+    "assetAmount": "1000000",
+    "shareAmount": "950000000000000000",
+    "replayId": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "observedAt": "2000000000",
+    "deadline": "2000000300",
+    "authorized": true,
+    "consumed": false
+  },
+  "expected": {
+    "result": "accept",
+    "reason": "authorized, unexpired, and unused quote"
+  }
+}

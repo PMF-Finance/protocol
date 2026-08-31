@@ -1,0 +1,18 @@
+{
+  "id": "redemption-partial-payment",
+  "profileId": "pmf/settlement-fifo-liability/1",
+  "case": "boundary",
+  "input": {
+    "liabilityId": "42",
+    "queuePosition": "0",
+    "originalAmount": "1000000",
+    "paidAmountBefore": "0",
+    "availableSettlementLiquidity": "400000",
+    "paymentAmount": "400000",
+    "settlementAsset": "0x5555555555555555555555555555555555555555"
+  },
+  "expected": {
+    "result": "accept",
+    "reason": "a partial payment reduces the head liability to 600000 without advancing the queue"
+  }
+}
