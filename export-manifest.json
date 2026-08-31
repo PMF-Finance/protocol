@@ -1,7 +1,7 @@
 {
   "schemaVersion": "pmf.public_contracts_export.v2",
   "packageVersion": "0.1.0",
-  "sourceRevision": "38453908eab6f8f1e0d016d18eb895731838d54f",
+  "sourceRevision": "8466d16b691ec207ced4e589f7b75a6ac57d6493",
   "sourceTreeClean": true,
   "preview": false,
   "solidityVersion": "0.8.24",
@@ -17,7 +17,7 @@
     ".github/ISSUE_TEMPLATE/bug.yml": "26714914ce4e4af4993f12b892499adcefadfce9911c3fac54b78b75e93cfd3d",
     ".github/ISSUE_TEMPLATE/config.yml": "f75a20424fbb478bd0d1848df912e4f90a22edf9690a9100c60c442f4fa600a4",
     ".github/ISSUE_TEMPLATE/extension.yml": "0716f7bf9ca93fd6c6573ee553572e9491325eff744f24b5500321d002f96054",
-    ".github/dependabot.yml": "06c866a85cd0a1c3d033f0d3774ae43993506bca4984d095de7e6ab53cac95c6",
+    ".github/dependabot.yml": "1acb210c4791d421b057c44efb6f64ae556abf95566248ff7641a83120b3ae04",
     ".github/pull_request_template.md": "00c98415110cc038d9607b62542b8be2f2034abbd8add2da9945b916138632d3",
     ".github/workflows/contracts.yml": "fe38f9b0a3fd379a8ca8c7cddabbf59b5fcbcc8e304d4646292f77af788978d8",
     ".github/workflows/slither.yml": "ffdea2d4eaf6e3d39f5444946d73d0dcfe95454cfc959793ada67669d2e45055",

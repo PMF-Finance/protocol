@@ -4,9 +4,12 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    # This repository is a generated release mirror. Routine version updates
+    # are applied in the authoritative monorepo and arrive in a release export.
+    # Dependabot alerts and security updates remain enabled in repository settings.
+    open-pull-requests-limit: 0
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 0
