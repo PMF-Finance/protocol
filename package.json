@@ -19,7 +19,7 @@
     "verify:export-manifest": "node scripts/tooling/verify-export-manifest.js"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
     "@openzeppelin/contracts": "5.0.2",
     "hardhat": "^2.22.0",
     "solhint": "^5.0.0",
