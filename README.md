@@ -35,8 +35,8 @@ npm run verify:export-manifest
 
 `export-manifest.json` identifies the source commit, whether the source tree was clean, the Solidity compiler version, an aggregate Solidity digest, and every exported file hash. Only exports with `sourceTreeClean: true` and `preview: false` are release candidates.
 
-## Collaboration
+## Questions and reports
 
-Use [Issues](https://github.com/PMF-Finance/protocol/issues) for concrete bugs and extension proposals and [Discussions](https://github.com/PMF-Finance/protocol/discussions) for protocol design and implementation questions. During phase one, only maintainer-generated release pull requests merge into `main`; accepted external proposals are implemented upstream, credited, and published in the next snapshot.
+Use [Issues](https://github.com/PMF-Finance/protocol/issues) for concrete bugs and [Discussions](https://github.com/PMF-Finance/protocol/discussions) for protocol design and implementation questions.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [RELEASING.md](RELEASING.md) before proposing changes, reporting a vulnerability, or publishing a snapshot.
+See [SECURITY.md](SECURITY.md) for vulnerability reporting and [RELEASING.md](RELEASING.md) for snapshot publishing.
