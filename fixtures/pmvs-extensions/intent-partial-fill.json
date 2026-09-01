@@ -1,0 +1,21 @@
+{
+  "id": "intent-partial-fill",
+  "profileId": "pmf/execution-intents/1",
+  "case": "positive",
+  "input": {
+    "intentId": "0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "direction": "buy",
+    "asset": "0x4444444444444444444444444444444444444444",
+    "counterAsset": "0x5555555555555555555555555555555555555555",
+    "remainingAssetAmount": "10000000000000000000",
+    "fillAssetAmount": "4000000000000000000",
+    "maximumCounterAssetAmount": "5000000",
+    "fillCounterAssetAmount": "1900000",
+    "solverAuthorized": true,
+    "expired": false
+  },
+  "expected": {
+    "result": "accept",
+    "reason": "authorized partial fill stays within quantity and price bounds"
+  }
+}

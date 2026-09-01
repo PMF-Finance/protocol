@@ -1,0 +1,21 @@
+{
+  "id": "intent-price-violation",
+  "profileId": "pmf/execution-intents/1",
+  "case": "negative",
+  "input": {
+    "intentId": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "direction": "sell",
+    "asset": "0x4444444444444444444444444444444444444444",
+    "counterAsset": "0x5555555555555555555555555555555555555555",
+    "remainingAssetAmount": "4000000000000000000",
+    "fillAssetAmount": "4000000000000000000",
+    "minimumCounterAssetAmount": "1800000",
+    "fillCounterAssetAmount": "1799999",
+    "solverAuthorized": true,
+    "expired": false
+  },
+  "expected": {
+    "result": "reject",
+    "reason": "received counter-asset is below the stored minimum"
+  }
+}

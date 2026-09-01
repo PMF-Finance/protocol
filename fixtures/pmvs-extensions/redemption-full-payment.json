@@ -1,0 +1,18 @@
+{
+  "id": "redemption-full-payment",
+  "profileId": "pmf/settlement-fifo-liability/1",
+  "case": "positive",
+  "input": {
+    "liabilityId": "42",
+    "queuePosition": "0",
+    "originalAmount": "1000000",
+    "paidAmountBefore": "400000",
+    "availableSettlementLiquidity": "800000",
+    "paymentAmount": "600000",
+    "settlementAsset": "0x5555555555555555555555555555555555555555"
+  },
+  "expected": {
+    "result": "accept",
+    "reason": "the remaining head liability is paid exactly and the queue can advance"
+  }
+}

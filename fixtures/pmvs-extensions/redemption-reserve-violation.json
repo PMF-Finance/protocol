@@ -1,0 +1,15 @@
+{
+  "id": "redemption-reserve-violation",
+  "profileId": "pmf/settlement-fifo-liability/1",
+  "case": "negative",
+  "input": {
+    "settlementCash": "1500000",
+    "outstandingLiability": "1000000",
+    "requiredReserve": "1000000",
+    "proposedBuyAllocation": "600000"
+  },
+  "expected": {
+    "result": "reject",
+    "reason": "the proposed buy would reduce settlement cash below the required redemption reserve"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ap-quote-replay",
+  "profileId": "pmf/admission-ap-quote/1",
+  "case": "negative",
+  "input": {
+    "operation": "deposit",
+    "chainId": "137",
+    "vault": "0x1111111111111111111111111111111111111111",
+    "signer": "0x2222222222222222222222222222222222222222",
+    "beneficiary": "0x3333333333333333333333333333333333333333",
+    "assetAmount": "1000000",
+    "shareAmount": "950000000000000000",
+    "replayId": "0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "observedAt": "2000000000",
+    "deadline": "2000000300",
+    "authorized": true,
+    "consumed": true
+  },
+  "expected": {
+    "result": "reject",
+    "reason": "the replay identifier was already consumed"
+  }
+}
