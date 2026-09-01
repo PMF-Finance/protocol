@@ -1,0 +1,30 @@
+name: Protocol extension proposal
+description: Discuss an optional interoperability capability informed by PMF.
+title: "[protocol-extension] "
+labels: [standards]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Interoperability problem
+      description: Describe the problem without assuming PMF's implementation is the standard.
+    validations:
+      required: true
+  - type: textarea
+    id: surface
+    attributes:
+      label: Affected records, rules, or interfaces
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility, migration, and trust impact
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Positive, boundary, and negative examples
+    validations:
+      required: true

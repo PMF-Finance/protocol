@@ -1,0 +1,35 @@
+title: "[Protocol extension] "
+labels: ["standards"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to explore an interoperability or protocol-design problem. Separate portable semantics from implementation-specific details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What cannot an integrator express, verify, or implement today?
+    validations:
+      required: true
+  - type: textarea
+    id: portable-semantics
+    attributes:
+      label: Portable semantics
+      description: Which behavior should be shared across implementations, independent of PMF's architecture?
+    validations:
+      required: true
+  - type: textarea
+    id: implementation-evidence
+    attributes:
+      label: Implementation evidence
+      description: Link relevant PMF contracts, tests, fixtures, or another working implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and trust impact
+      description: Describe versioning, migration, security, investor, and backend-trust effects.
+    validations:
+      required: true

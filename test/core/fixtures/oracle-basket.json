@@ -1,0 +1,153 @@
+{
+  "basket_hash": "0xec451aafc0e4a8b3ba49c82528fd367e489df8ee3a54c4ad4cc6d3773f60363b",
+  "chain_id": 137,
+  "compact_constituents": [
+    {
+      "conditionId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "executionCapacityE6": "12500000000",
+      "marketIdHash": "0xd0eb6ee088898d1312ed41976b2ef5b78794b61eb1b6c9337ad2d1cd66581bc6",
+      "outcomeHash": "0x84e4f592e52dc6e339ebb9a3f379f4dcf988a1253042a8ba9f03099551864bf0",
+      "outcomeSide": "1",
+      "questionHash": "0x147f10843355a331d7ea99fd299de28f5e9af09b169cf82f35376346337daaf2",
+      "referencePriceE18": "520000000000000000",
+      "tokenId": "123456789012345678901",
+      "weightE18": "500000000000000000",
+      "bestBidE18": "510000000000000000",
+      "bestAskE18": "530000000000000000",
+      "spreadBps": "200",
+      "depthBidE6": "12500000000",
+      "depthAskE6": "12500000000",
+      "marketDataAsOf": "1778688000"
+    },
+    {
+      "conditionId": "0x2222222222222222222222222222222222222222222222222222222222222222",
+      "executionCapacityE6": "9800000000",
+      "marketIdHash": "0x2182027c6c578eecc23b6119381d0a14a16ab3f60dfa12c415bd1b93c074a256",
+      "outcomeHash": "0x267aa6f4694ec65b4167a753966ad7f8f38d1152f8a81ccf0d941bd0680eb852",
+      "outcomeSide": "2",
+      "questionHash": "0xa41e80fc7e71c82ef950f88e3bed4e2c243e85445fd582e64c7965e18e30c6e7",
+      "referencePriceE18": "310000000000000000",
+      "tokenId": "223456789012345678901",
+      "weightE18": "300000000000000000",
+      "bestBidE18": "300000000000000000",
+      "bestAskE18": "320000000000000000",
+      "spreadBps": "200",
+      "depthBidE6": "9800000000",
+      "depthAskE6": "9800000000",
+      "marketDataAsOf": "1778688000"
+    },
+    {
+      "conditionId": "0x3333333333333333333333333333333333333333333333333333333333333333",
+      "executionCapacityE6": "4500000000",
+      "marketIdHash": "0x1a1932b7e8ea58af9283bc66e5d1bfc10507e1286bf621fdd4b0e4a7dc3cc091",
+      "outcomeHash": "0x0691aa2e8423768d061c955d231ebcfd39568459920cd05dc1ff1ffe2ca6f04a",
+      "outcomeSide": "0",
+      "questionHash": "0xa39ac72398ebb9250198855a2aefd869ba3cc7fb4918c500d5eeae115488df66",
+      "referencePriceE18": "190000000000000000",
+      "tokenId": "323456789012345678901",
+      "weightE18": "200000000000000000",
+      "bestBidE18": "180000000000000000",
+      "bestAskE18": "200000000000000000",
+      "spreadBps": "200",
+      "depthBidE6": "4500000000",
+      "depthAskE6": "4500000000",
+      "marketDataAsOf": "1778688000"
+    }
+  ],
+  "description": "Synthetic cross-runtime oracle basket fixture for protocol tests.",
+  "eip712": {
+    "domain": {
+      "chainId": 137,
+      "name": "PMF Basket Oracle",
+      "verifyingContract": "0x00000000000000000000000000000000000000b0",
+      "version": "1"
+    },
+    "message": {
+      "asOf": "1778688000",
+      "basketHash": "0xec451aafc0e4a8b3ba49c82528fd367e489df8ee3a54c4ad4cc6d3773f60363b",
+      "constituentCount": "3",
+      "feedId": "0x672c5cb205a1ba6b446821502b2860a39f962f341c17f36c5bd757c347b77319",
+      "levelE18": "101250000000000000000",
+      "qualityStatus": "1",
+      "roundId": "490000",
+      "runIdHash": "0x968e63cb989ae3eb63da7a748cfb335fd8eae2bcb22334008dabd20981b4e5b4",
+      "validUntil": "1778702400"
+    },
+    "primaryType": "BasketHeader",
+    "types": {
+      "BasketHeader": [
+        {
+          "name": "feedId",
+          "type": "bytes32"
+        },
+        {
+          "name": "roundId",
+          "type": "uint80"
+        },
+        {
+          "name": "asOf",
+          "type": "uint64"
+        },
+        {
+          "name": "validUntil",
+          "type": "uint64"
+        },
+        {
+          "name": "runIdHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "basketHash",
+          "type": "bytes32"
+        },
+        {
+          "name": "constituentCount",
+          "type": "uint16"
+        },
+        {
+          "name": "levelE18",
+          "type": "uint256"
+        },
+        {
+          "name": "qualityStatus",
+          "type": "uint8"
+        }
+      ],
+      "EIP712Domain": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "chainId",
+          "type": "uint256"
+        },
+        {
+          "name": "verifyingContract",
+          "type": "address"
+        }
+      ]
+    }
+  },
+  "feed_id": "0x672c5cb205a1ba6b446821502b2860a39f962f341c17f36c5bd757c347b77319",
+  "header": {
+    "asOf": "1778688000",
+    "basketHash": "0xec451aafc0e4a8b3ba49c82528fd367e489df8ee3a54c4ad4cc6d3773f60363b",
+    "constituentCount": "3",
+    "feedId": "0x672c5cb205a1ba6b446821502b2860a39f962f341c17f36c5bd757c347b77319",
+    "levelE18": "101250000000000000000",
+    "qualityStatus": "1",
+    "roundId": "490000",
+    "runIdHash": "0x968e63cb989ae3eb63da7a748cfb335fd8eae2bcb22334008dabd20981b4e5b4",
+    "validUntil": "1778702400"
+  },
+  "index_slug": "example-index",
+  "signature": "0x31ab8fee48b0ef0965207148dfc880b20b8c0ffa5a22b189fc4cb5818750d6c646ace28ddf8eb822bbbc8630f7b748497f680edb7f8025478c32608f9ebd87391c",
+  "signer_address": "0xFCAd0B19bB29D4674531d6f115237E16AfCE377c",
+  "source_path": "/examples/oracle-basket",
+  "verifying_contract": "0x00000000000000000000000000000000000000b0"
+}
